@@ -1,0 +1,78 @@
+#main-container{
+    width: 65%;
+    margin: auto;
+}
+
+.order_by{
+    cursor: pointer;
+}
+
+.logged-{
+    display: none !important;
+}
+
+#message-container, #preview-img, input[name="image"], #preview-div{
+    display: none;
+}
+
+.comment-input, input{
+    width: 49%;
+}
+
+.comment-input-textarea{
+    width: 100%;
+}
+
+.left-side-comment{
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.upl-img{
+    width: 160px;
+    height: 120px;
+    margin: 10px 0;
+}
+
+.admin-changed{
+    font-size: small;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+/*admin*/
+
+.text-area-container{
+    width: 75%;
+}
+
+.btn-xs{
+    margin-left: 20px;
+}
+
+.shadow-0{
+    box-shadow: 0 6px 10px #f3413c;
+}
+
+.shadow-1{
+    box-shadow: 0 6px 10px #68c368;
+}
+
+.shadow-2{
+    box-shadow: 0 6px 10px #c3bc39;
+}
+
+.badge{
+    background-color: #f3413c !important;
+}
+
+.badge:hover{
+    cursor: pointer;
+    font-size: medium;
+}
